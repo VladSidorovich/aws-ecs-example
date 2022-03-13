@@ -1,13 +1,16 @@
-<mxfile host="app.diagrams.net" modified="2022-03-13T12:48:45.109Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="g5OH7NWtd0Xwd888ntCf" version="16.1.2" type="github">
+<mxfile host="app.diagrams.net" modified="2022-03-13T13:00:15.128Z" agent="5.0 (Macintosh; Intel Mac OS X 10_15_7) AppleWebKit/537.36 (KHTML, like Gecko) Chrome/99.0.4844.51 Safari/537.36" etag="ZMtnbuKTxIl3EtSYsIL1" version="16.1.2" type="github">
   <diagram id="22W5hwt2iLh7WJWGdU3u" name="Page-1">
-    <mxGraphModel dx="1103" dy="748" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
+    <mxGraphModel dx="1379" dy="935" grid="1" gridSize="10" guides="1" tooltips="1" connect="1" arrows="1" fold="1" page="1" pageScale="1" pageWidth="827" pageHeight="1169" math="0" shadow="0">
       <root>
         <mxCell id="0" />
         <mxCell id="1" parent="0" />
-        <mxCell id="iibFZ-Km53_XuOD9Q4Ad-1" value="https://siriusfuture.space&lt;br&gt;prod env&lt;br&gt;онлайн-класс" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="iibFZ-Km53_XuOD9Q4Ad-36" value="" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="110" y="105" width="1230" height="920" as="geometry" />
+        </mxCell>
+        <mxCell id="iibFZ-Km53_XuOD9Q4Ad-1" value="https://siriusfuture.space&lt;br&gt;online-class" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="220" y="230" width="240" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="iibFZ-Km53_XuOD9Q4Ad-2" value="https://sirius-future-api.herokuapp.com&lt;br&gt;prod env&lt;br&gt;API онлайн-класса" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="iibFZ-Km53_XuOD9Q4Ad-2" value="https://sirius-future-api.herokuapp.com&lt;br&gt;API online-class" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="220" y="360" width="240" height="70" as="geometry" />
         </mxCell>
         <mxCell id="iibFZ-Km53_XuOD9Q4Ad-3" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="iibFZ-Km53_XuOD9Q4Ad-1" target="iibFZ-Km53_XuOD9Q4Ad-2">
@@ -16,7 +19,7 @@
             <mxPoint x="440" y="330" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="iibFZ-Km53_XuOD9Q4Ad-4" value="БД PostgreSQL" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="iibFZ-Km53_XuOD9Q4Ad-4" value="Database PostgreSQL" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="280" y="480" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="iibFZ-Km53_XuOD9Q4Ad-5" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="iibFZ-Km53_XuOD9Q4Ad-2" target="iibFZ-Km53_XuOD9Q4Ad-4">
@@ -25,28 +28,7 @@
             <mxPoint x="440" y="330" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="iibFZ-Km53_XuOD9Q4Ad-6" value="https://class-testing-platform.herokuapp.com/&lt;br&gt;test env&lt;br&gt;онлайн-класс" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1420" y="230" width="280" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="iibFZ-Km53_XuOD9Q4Ad-7" value="https://api-class-testing.herokuapp.com/&lt;br&gt;test env&lt;br&gt;API онлайн-класса" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1420" y="360" width="280" height="70" as="geometry" />
-        </mxCell>
-        <mxCell id="iibFZ-Km53_XuOD9Q4Ad-8" value="test БД PostgreSQL" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="1490" y="480" width="120" height="60" as="geometry" />
-        </mxCell>
-        <mxCell id="iibFZ-Km53_XuOD9Q4Ad-9" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1550" y="300" as="sourcePoint" />
-            <mxPoint x="1550" y="360" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="iibFZ-Km53_XuOD9Q4Ad-10" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;" edge="1" parent="1">
-          <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1549.5" y="430" as="sourcePoint" />
-            <mxPoint x="1550" y="480" as="targetPoint" />
-          </mxGeometry>
-        </mxCell>
-        <mxCell id="iibFZ-Km53_XuOD9Q4Ad-12" value="https://student-personal-page-sf.herokuapp.com&lt;br&gt;prod env&lt;br&gt;личная страница ученика" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="iibFZ-Km53_XuOD9Q4Ad-12" value="https://student-personal-page-sf.herokuapp.com&lt;br&gt;student personal page" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="550" y="230" width="300" height="70" as="geometry" />
         </mxCell>
         <mxCell id="iibFZ-Km53_XuOD9Q4Ad-13" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="iibFZ-Km53_XuOD9Q4Ad-1" target="iibFZ-Km53_XuOD9Q4Ad-12">
@@ -55,10 +37,10 @@
             <mxPoint x="500" y="360" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="iibFZ-Km53_XuOD9Q4Ad-14" value="https://sirius-crm.herokuapp.com&lt;br&gt;prod env&lt;br&gt;CRM" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="iibFZ-Km53_XuOD9Q4Ad-14" value="https://sirius-crm.herokuapp.com&lt;br&gt;CRM-system" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="930" y="230" width="300" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="iibFZ-Km53_XuOD9Q4Ad-15" value="https://sirius-crm-api.herokuapp.com&lt;br&gt;prod env&lt;br&gt;CRM-api" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="iibFZ-Km53_XuOD9Q4Ad-15" value="https://sirius-crm-api.herokuapp.com&lt;br&gt;CRM-api" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="740" y="360" width="300" height="70" as="geometry" />
         </mxCell>
         <mxCell id="iibFZ-Km53_XuOD9Q4Ad-16" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
@@ -73,7 +55,7 @@
             <mxPoint x="780" y="360" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="iibFZ-Km53_XuOD9Q4Ad-18" value="БД PostgreSQL" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+        <mxCell id="iibFZ-Km53_XuOD9Q4Ad-18" value="Database PostgreSQL" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
           <mxGeometry x="827" y="480" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="iibFZ-Km53_XuOD9Q4Ad-19" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
@@ -82,62 +64,71 @@
             <mxPoint x="886.5" y="480" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="iibFZ-Km53_XuOD9Q4Ad-20" value="https://class-testing-platform.herokuapp.com/&lt;br&gt;test env&lt;br&gt;онлайн-класс" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="220" y="600" width="240" height="70" as="geometry" />
+        <mxCell id="iibFZ-Km53_XuOD9Q4Ad-20" value="https://class-testing-platform.herokuapp.com/&lt;br&gt;online-class" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="610" width="240" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="iibFZ-Km53_XuOD9Q4Ad-21" value="https://api-class-testing.herokuapp.com/&lt;br&gt;test env&lt;br&gt;API онлайн-класса" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="220" y="730" width="240" height="70" as="geometry" />
+        <mxCell id="iibFZ-Km53_XuOD9Q4Ad-21" value="https://api-class-testing.herokuapp.com/&lt;br&gt;API online-class" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="220" y="740" width="240" height="70" as="geometry" />
         </mxCell>
         <mxCell id="iibFZ-Km53_XuOD9Q4Ad-22" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="iibFZ-Km53_XuOD9Q4Ad-20" target="iibFZ-Km53_XuOD9Q4Ad-21">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="390" y="750" as="sourcePoint" />
-            <mxPoint x="440" y="700" as="targetPoint" />
+            <mxPoint x="390" y="760" as="sourcePoint" />
+            <mxPoint x="440" y="710" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="iibFZ-Km53_XuOD9Q4Ad-23" value="БД PostgreSQL" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="280" y="850" width="120" height="60" as="geometry" />
+        <mxCell id="iibFZ-Km53_XuOD9Q4Ad-23" value="Database&amp;nbsp;&lt;br&gt;PostgreSQL" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="280" y="860" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="iibFZ-Km53_XuOD9Q4Ad-24" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1" source="iibFZ-Km53_XuOD9Q4Ad-21" target="iibFZ-Km53_XuOD9Q4Ad-23">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="390" y="750" as="sourcePoint" />
-            <mxPoint x="440" y="700" as="targetPoint" />
+            <mxPoint x="390" y="760" as="sourcePoint" />
+            <mxPoint x="440" y="710" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="iibFZ-Km53_XuOD9Q4Ad-25" value="https://test-student-personal-page.herokuapp.com/&lt;br&gt;test env&lt;br&gt;личная страница ученика" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="550" y="600" width="300" height="70" as="geometry" />
+        <mxCell id="iibFZ-Km53_XuOD9Q4Ad-25" value="https://test-student-personal-page.herokuapp.com/&lt;br&gt;student personal page" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="550" y="610" width="300" height="70" as="geometry" />
         </mxCell>
         <mxCell id="iibFZ-Km53_XuOD9Q4Ad-26" value="" style="endArrow=classic;html=1;rounded=0;exitX=1;exitY=0.5;exitDx=0;exitDy=0;entryX=0;entryY=0.5;entryDx=0;entryDy=0;" edge="1" parent="1" source="iibFZ-Km53_XuOD9Q4Ad-20" target="iibFZ-Km53_XuOD9Q4Ad-25">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="500" y="670" as="sourcePoint" />
-            <mxPoint x="500" y="730" as="targetPoint" />
+            <mxPoint x="500" y="680" as="sourcePoint" />
+            <mxPoint x="500" y="740" as="targetPoint" />
           </mxGeometry>
         </mxCell>
-        <mxCell id="iibFZ-Km53_XuOD9Q4Ad-27" value="https://test-sirius-crm.herokuapp.com&lt;br&gt;prod env&lt;br&gt;CRM" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="930" y="600" width="300" height="70" as="geometry" />
+        <mxCell id="iibFZ-Km53_XuOD9Q4Ad-27" value="https://test-sirius-crm.herokuapp.com&lt;br&gt;CRM-system" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="930" y="610" width="300" height="70" as="geometry" />
         </mxCell>
-        <mxCell id="iibFZ-Km53_XuOD9Q4Ad-28" value="https://test-sirius-crm-api.herokuapp.com&lt;br&gt;prod env&lt;br&gt;CRM-api" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="740" y="730" width="300" height="70" as="geometry" />
+        <mxCell id="iibFZ-Km53_XuOD9Q4Ad-28" value="https://test-sirius-crm-api.herokuapp.com&lt;br&gt;CRM-api" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="740" y="740" width="300" height="70" as="geometry" />
         </mxCell>
         <mxCell id="iibFZ-Km53_XuOD9Q4Ad-29" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="1000" y="670" as="sourcePoint" />
-            <mxPoint x="1000" y="730" as="targetPoint" />
+            <mxPoint x="1000" y="680" as="sourcePoint" />
+            <mxPoint x="1000" y="740" as="targetPoint" />
           </mxGeometry>
         </mxCell>
         <mxCell id="iibFZ-Km53_XuOD9Q4Ad-30" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="780" y="670" as="sourcePoint" />
-            <mxPoint x="780" y="730" as="targetPoint" />
+            <mxPoint x="780" y="680" as="sourcePoint" />
+            <mxPoint x="780" y="740" as="targetPoint" />
           </mxGeometry>
-        </mxCell>
-        <mxCell id="iibFZ-Km53_XuOD9Q4Ad-31" value="БД PostgreSQL" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
-          <mxGeometry x="827" y="850" width="120" height="60" as="geometry" />
         </mxCell>
         <mxCell id="iibFZ-Km53_XuOD9Q4Ad-32" value="" style="endArrow=classic;html=1;rounded=0;exitX=0.5;exitY=1;exitDx=0;exitDy=0;entryX=0.5;entryY=0;entryDx=0;entryDy=0;" edge="1" parent="1">
           <mxGeometry width="50" height="50" relative="1" as="geometry">
-            <mxPoint x="886.5" y="800" as="sourcePoint" />
-            <mxPoint x="886.5" y="850" as="targetPoint" />
+            <mxPoint x="886.5" y="810" as="sourcePoint" />
+            <mxPoint x="886.5" y="860" as="targetPoint" />
           </mxGeometry>
+        </mxCell>
+        <mxCell id="iibFZ-Km53_XuOD9Q4Ad-33" value="Production environment" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="620" y="150" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iibFZ-Km53_XuOD9Q4Ad-34" value="Test environment" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="625" y="550" width="150" height="30" as="geometry" />
+        </mxCell>
+        <mxCell id="iibFZ-Km53_XuOD9Q4Ad-35" value="Database&amp;nbsp;&lt;br&gt;PostgreSQL" style="rounded=0;whiteSpace=wrap;html=1;" vertex="1" parent="1">
+          <mxGeometry x="830" y="860" width="120" height="60" as="geometry" />
+        </mxCell>
+        <mxCell id="iibFZ-Km53_XuOD9Q4Ad-37" value="Node.js 12.22.4" style="text;html=1;strokeColor=none;fillColor=none;align=center;verticalAlign=middle;whiteSpace=wrap;rounded=0;" vertex="1" parent="1">
+          <mxGeometry x="150" y="130" width="100" height="50" as="geometry" />
         </mxCell>
       </root>
     </mxGraphModel>
